@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
 body  {background-color: skyblue ; }
   h1.titulo {color: red ;  text-align: center ; text-decoration: underline black 8px; }
   h2.preparacion {color: red ;  text-align: left; text-decoration: underline black 8px; }
@@ -60,6 +68,29 @@ footer{display: flex;
     align-items: center;
 
 }
+h1.titulo, h2.preparacion{
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1.siguenos {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.preparacion  {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
 .correo{
     color: white;
     text-align: right;
