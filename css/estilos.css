@@ -58,6 +58,11 @@ img.portada{
 footer{display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+.correo{
+    color: white;
+    text-align: right;
 }
 
 
@@ -84,4 +89,5 @@ width: 40px;
     float: left;    
     margin-right: 20px; 
 }
+
    
