@@ -1,7 +1,7 @@
 body  {background-color: skyblue ; }
   h1.titulo {color: red ;  text-align: center ; text-decoration: underline black 8px; }
   h2.preparacion {color: red ;  text-align: left; text-decoration: underline black 8px; }
-  li.blanco {color: white ; }
+  li.blanco {color: rgb(22, 19, 19) ; }
     img.portada {width: 400px ; height: 200px ; 
                  border: 5px solid  blue ; 
                 }

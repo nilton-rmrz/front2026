@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pizca Andina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body >
@@ -16,16 +17,41 @@
         <a  target="_blank"  href="https://www.youtube.com/?app=desktop&hl=es"><img class="logos" src="./imagen/youtube.jpg" alt="YouTube"></a>
         <div>
     </header>
-    <nav>
-         <ul >
-        <li class="enlace">    <a  target="_blank" href="https://productosbahia.com.ar/receta/empanadas-de-sardinas/?gad_source=1&gad_campaignid=23354935666&gbraid=0AAAABByzemr5caEzVD6PrRsYL4l9V3Tu5&gclid=Cj0KCQjwi8nRBhDhARIsAHZf_pYTuPk9CachXybLOOa-7D4PGIUS3GsZ4RVx_CUhlzWg0jfU1wNpsG0aAvGdEALw_wcB"> Empanadas de Sardinas</a></li>
-        <li class="enlace">    <a  target="_blank" href="https://www.cookmonkeys.com/bolitas-de-sardinas">Bolitas  de Sardinas</a></li>
-        <li class="enlace">    <a  target="_blank" href="https://cocinafrancia.com/2021/06/16/ensalada-de-sardinas-rucula-mozzarella/#google_vignette">Ensalada de Sardinas</a></li>
-        <li class="enlace">    <a target="_blank" href="https://invitadoinvierno.com/sardinas-a-la-plancha/">Sardinas a la Plancha</a></li>
-    </ul>
-     <a target="_blank" href="https://cookpad.com/ar/buscar/sardinas%20en%20lata"> Más información</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" target="_blank" href="https://productosbahia.com.ar/receta/empanadas-de-sardinas/?gad_source=1&gad_campaignid=23354935666&gbraid=0AAAABByzemr5caEzVD6PrRsYL4l9V3Tu5&gclid=Cj0KCQjwi8nRBhDhARIsAHZf_pYTuPk9CachXybLOOa-7D4PGIUS3GsZ4RVx_CUhlzWg0jfU1wNpsG0aAvGdEALw_wcB">Empanada</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" target="_blank" href="https://www.cookmonkeys.com/bolitas-de-sardinas">Bolitas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://cocinafrancia.com/2021/06/16/ensalada-de-sardinas-rucula-mozzarella/#google_vignette">ensalada</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Más recetas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" target="_blank" href="https://cookpad.com/ar/buscar/sardinas%20en%20lata">Más información</a></li>
+            <li><a class="dropdown-item" target="_blank" href=".."></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" target="_blank" href="contactos.html">Contactos</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
     <br>
-    <a href="contactos.html">Contactos</a>
 
     </nav>
     <section>
@@ -87,6 +113,6 @@
 
      
    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body >
 </html>
